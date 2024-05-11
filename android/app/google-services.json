@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "262399623474",
+    "firebase_url": "https://todos-e7069-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "todos-e7069",
+    "storage_bucket": "todos-e7069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262399623474:android:1275727a4ceb4af644972b",
+        "android_client_info": {
+          "package_name": "com.example.to_do_ui_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVqq98DjPX6YqInZOvwRmvW6hGtY-2T1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262399623474:android:a031870a2e67a0ec44972b",
+        "android_client_info": {
+          "package_name": "org.classapp.todos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVqq98DjPX6YqInZOvwRmvW6hGtY-2T1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
