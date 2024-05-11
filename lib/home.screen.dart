@@ -186,6 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void dialogForm({ToDoModel? item}) {
+    // This function will show the dialog form, and set the value to the controller
     if (item == null) {
       topicController.text = '';
       descriptionController.text = '';
@@ -293,6 +294,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void datePicker() {
+    // This function will show the date picker, and set the selected date to the dateController
     DatePicker.showDateTimePicker(
       context,
       showTitleActions: true,

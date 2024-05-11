@@ -5,6 +5,7 @@ class FireStoreService {
   final CollectionReference todos =
       FirebaseFirestore.instance.collection('todo_list');
 
+// This function will add the todo to the firestore
   Future<void> addTodos(String topic, String description, String date) {
     return todos.add({
       'todoId': GenerateString.generateRandomString(8),

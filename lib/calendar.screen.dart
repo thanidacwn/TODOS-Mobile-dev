@@ -6,6 +6,7 @@ import 'package:to_do_ui_flutter/models/todo.model.dart';
 import 'package:to_do_ui_flutter/services/firestore.dart';
 
 class CalendarScreen extends StatefulWidget {
+  // This class will hold the calendar screen
   const CalendarScreen({super.key});
 
   @override
@@ -13,6 +14,7 @@ class CalendarScreen extends StatefulWidget {
 }
 
 class _CalendarScreenState extends State<CalendarScreen> {
+  // This class will hold the calendar screen
   Map<DateTime, List<dynamic>> _events = HashMap<DateTime, List<dynamic>>();
   final FireStoreService fireStoreService = FireStoreService();
   List<ToDoModel> items = <ToDoModel>[];
@@ -34,6 +36,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
   }
 
   void _onDaySelected(DateTime day, DateTime focusDay) {
+    // This function will be called when a day is selected
     setState(() {
       focusedDay = focusDay;
       _selectedEvents = _events[day] ?? [];
@@ -47,7 +50,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple,
           title: const Text(
-            'Joe\'s Calendar',
+            'Calendar',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.white,

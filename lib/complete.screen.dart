@@ -27,7 +27,7 @@ class _CompleteScreenState extends State<CompleteScreen> {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: const Text(
-          'Joe\'s Complete',
+          'Complete',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white,
